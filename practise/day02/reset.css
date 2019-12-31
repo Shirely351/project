@@ -1,0 +1,68 @@
+
+    *{
+
+        margin: 0px;
+    
+        padding: 0px;
+    
+    }
+    
+    ol,ul{
+    
+        list-style: none;
+    
+    }
+    
+    img{
+    
+        border: 0px;
+    
+    }
+    
+    a{
+    
+        text-decoration: none;
+    
+    }
+    
+    h1,h2,h3,h4,h5,h6{
+    
+        font-weight: normal;
+    
+    }
+    
+    input{
+    
+        color: inherit;
+    
+        font: inherit;
+    
+        margin: 0;
+    
+        padding: 0;
+    
+        border: 0;
+    
+        outline: none;
+    
+    }
+    
+    .banner{position: relative;}
+    .banner>img{ display: inline-block; width: 100%;}
+    header{position: absolute;top: 0;left: 0;width: 100%;z-index: 100;padding: 20px 0 0;
+        background: -webkit-linear-gradient(red, blue); /* Safari 5.1 - 6.0 */
+        background: -o-linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.2)); /* Opera 11.1 - 12.0 */
+        background: -moz-linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.2)); /* Firefox 3.6 - 15 */
+        background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.2)); /* 标准的语法（必须放在最后） */
+    }
+    body{background-image: url(https://blog.csdn.net/learn_yang/article/details/80700849)}
+    header .nav>li{float: left;padding: 15px 22px 0;text-align: center;position: relative;}
+    header .nav>li>a{font-size: 20px;color: #fff; -webkit-transition: all .4s;-moz-transition: all .4s;-o-transition: all .4s;transition: all .4s;}
+    header .nav>li>span{display: block;color: #fff; -webkit-transition: all .4s;-moz-transition: all .4s;-o-transition: all .4s;transition: all .4s;font-size: 12px;padding:10px 0;opacity: 0;background: url()}
+    header .nav>li:hover>a,header .nav>li.active>a{color: #006aff}
+    header .nav>li:hover>span,header .nav>li.active>span{color: #006aff;opacity: 1;}
+    .nav .level{display: none;position: absolute;left: 50%;top: 100%;background: rgba(0,0,0,.3);width: auto;width: 340px;border-radius: 10px;transform: translateX(-50%);padding: 0 15px;box-sizing: border-box;}
+    .nav .level li{float: left;text-align: center;height: 30px;line-height: 30px;padding: 0 15px;}
+    .nav .level li a{font-size: 18px;color: #fff; -webkit-transition: all .4s;-moz-transition: all .4s;-o-transition: all .4s;transition: all .4s;}
+    .nav .level li:hover a{color: #006aff;}  
+    
